@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Cricket Program</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="icon" sizes="192x192" href="logo.avif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo"> <img src="logo.avif"> Youth Cricket Program</div>
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="#features"><i class="fas fa-cogs"></i> Features</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Landing Section -->
+    <section class="landing" id="home">
+        <div class="landing-text">
+            <h1>Welcome to the Youth Cricket Program</h1>
+            <h3>Empowering the next generation of cricket stars.
+            <br>
+            </h3>
+            <br>
+            <button onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to the Youth Cricket Development Program! Our aim is to nurture the next generation of cricket stars by providing them with comprehensive training, expert coaching, and a supportive community. We are dedicated to helping young players achieve their full potential both on and off the field.</p>
+    
+            <h3>Focus Areas</h3>
+            <ul>
+                <li><strong>Player Development:</strong> Our program focuses on developing technical skills, tactical knowledge, and sportsmanship in young cricketers.</li>
+                <li><strong>Comprehensive Training:</strong> We offer a well-rounded training regimen that covers all aspects of the game, including batting, bowling, fielding, fitness, and mental toughness.</li>
+                <li><strong>Community Building:</strong> We believe in creating a strong community where players, parents, and coaches can support and learn from each other.</li>
+            </ul>
+    
+            <h3>Why Choose Our Program?</h3>
+            <ul>
+                <li><strong>Expert Coaching:</strong> Our coaching staff includes experienced professionals who have played and coached at high levels of the game. They bring a wealth of knowledge and expertise to the program.</li>
+                <li><strong>Advanced Facilities:</strong> We provide access to top-notch training facilities, including practice nets, fitness centers, and video analysis tools.</li>
+                <li><strong>Holistic Approach:</strong> We are committed to the holistic development of our players, focusing not just on their cricketing skills but also on their overall well-being and character.</li>
+            </ul>
+    
+            <h3>Program Benefits</h3>
+            <ul>
+                <li><strong>Skill Enhancement:</strong> Our structured training sessions are designed to improve each player’s skills and understanding of the game.</li>
+                <li><strong>Performance Tracking:</strong> We use advanced tools and metrics to monitor player performance, track progress, and identify areas for improvement.</li>
+                <li><strong>Personalized Feedback:</strong> Our coaches provide individualized feedback and guidance to help each player reach their full potential.</li>
+                <li><strong>Community and Networking:</strong> Our program offers numerous opportunities for players to connect with their peers, learn from mentors, and build a strong network within the cricket community.</li>
+            </ul>
+    
+            <h3>Testimonials</h3>
+            <blockquote>
+                “The Youth Cricket Development Program has transformed my son’s game. The coaches are knowledgeable, and the training sessions are excellent. We’ve seen tremendous improvement in his skills and confidence.” - Parent of a current player
+            </blockquote>
+    
+            <h3>Call to Action</h3>
+            <p>Join our program today and take the first step towards achieving your cricket dreams. <a href="#register">Register now</a> or <a href="#contact">contact us</a> for more information!</p>
+        </div>
+    </section>
+    
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2>Features</h2>
+        <div id="player-registration" class="feature">
+            <h3>Player Registration</h3>
+            <p>Details about player registration process and requirements.</p>
+        </div>
+        <div id="schedule-management" class="feature">
+            <h3>Schedule Management</h3>
+            <p>Details about managing training and match schedules.</p>
+        </div>
+        <div id="progress-tracking" class="feature">
+            <h3>Progress Tracking</h3>
+            <p>Details about tracking player progress and performance metrics.</p>
+        </div>
+        <div id="program-analysis" class="feature">
+            <h3>Program Analysis</h3>
+            <p>Details about analyzing the effectiveness of the program.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <br>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Youth Cricket Program. All rights reserved.</p>
+    </footer>
+
+    <script src="test.js"></script>
+</body>
+</html>
